@@ -7,7 +7,7 @@ public class Library {
                 new Journal("Nature")
         };
     }
-
+    
     public void displayAvailableResources() {
         System.out.println("Available Resources at NEU Library:");
         for (Resource resource : resources) {
