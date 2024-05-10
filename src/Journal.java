@@ -1,4 +1,4 @@
-public class Journal implements Resource{
+public class Journal implements Resource {
     private String title;
 
     public Journal(String title) {
@@ -13,5 +13,9 @@ public class Journal implements Resource{
     @Override
     public void returnResource(Student student) {
         System.out.println(student.getName() + " returned '" + title + "' journal to the NEU Library.");
+    }
+
+    public String getTitle() {
+        return title;
     }
 }
